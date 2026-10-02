@@ -7,8 +7,9 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": "outDir": "dist",
-"rootDir": "src"
+    "noEmit": "noEmit": false,
+"outDir": "dist",
+"rootDir": "src",
     "types": ["node", "@vercel/node"]
   },
   "include": ["src/**/*.ts"]
