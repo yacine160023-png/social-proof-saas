@@ -1,0 +1,24 @@
+{
+  "name": "social-proof-saas",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Weekly social proof generator using Supabase, OpenAI, Bannerbear and Ayrshare.",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.4.0",
+    "openai": "^4.28.0",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@vercel/node": "^5.5.0",
+    "typescript": "^5.3.3",
+    "tsx": "^4.19.2"
+  }
+}
