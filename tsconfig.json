@@ -7,7 +7,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "noEmit": "noEmit": false,
+    "noEmit": false,
 "outDir": "dist",
 "rootDir": "src",
     "types": ["node", "@vercel/node"]
